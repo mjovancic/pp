@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="about.html">O meni</a></li>
+            <li><a href="dizajn.html">Web-dizajn</a></li>            
+            <li><a href="photos.html">Fotografije</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+<nav id="hamburger-nav">
+    <div class="logo">Portfolio</div>
+    <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="menu-links">
+        <li><a href="index.html" onclick="toggleMenu()">Početna</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">O meni</a></li>
+        <li><a href="dizajn.html" onclick="toggleMenu()">Web-dizajn</a></li>
+        <li><a href="photos.html" onclick="toggleMenu()">Photos</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Kontakt</a></li>
+    </ul>
+</nav>
+
+
+	<section id="home" class="about-section">
+        <div class="about-text">
+            <h1>Moje fotografije</h1>
+            <p>„Dobrodošli u moju kolekciju fotografija. 
+                Ove slike prikazuju moj pogled na svet kroz objektiv i način na koji beležim trenutke, svetlo i kompoziciju. 
+                Istražite fotografije ispod da biste videli raznovrsne motive – od pejzaža i urbanih scena do portreta i detalja iz svakodnevnog života. 
+                Svaka fotografija je rezultat pažljivog posmatranja i posvećenosti trenutku, sa željom da prenese emociju i priču.“</p>
+    </section>
+
+<section class="gallery">
+    <br><br>
+    <div class="grid-gallery">
+        <!-- Prvi red: 3 slike -->
+        <a href="img/s1.jpg" target="_blank"><img src="img/s1.jpg" alt="Rad"></a>
+        <a href="img/s2.jpg" target="_blank"><img src="img/s2.jpg" alt="Rad"></a>
+        <a href="img/s3.jpg" target="_blank"><img src="img/s3.jpg" alt="Rad"></a>
+
+        <!-- Drugi red: 2 šire slike -->
+        <a href="img/s4.jpg" target="_blank" class="wide"><img src="img/s4.jpg" alt="Rad"></a>
+        <a href="img/s5.jpg" target="_blank" class="wide"><img src="img/s5.jpg" alt="Rad"></a>
+
+        <!-- Treći red: 3 slike -->
+        <a href="img/s6.jpg" target="_blank"><img src="img/s6.jpg" alt="Rad"></a>
+        <a href="img/s7.jpg" target="_blank"><img src="img/s7.jpg" alt="Rad"></a>
+        <a href="img/s8.jpg" target="_blank"><img src="img/s8.jpg" alt="Rad"></a>
+    </div>
+</section>
+
+    
+<footer id="footer-nav">
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="about.html">O meni</a></li>
+            <li><a href="dizajn.html">Web-dizajn</a></li>
+            <li><a href="photos.html">Fotografije</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
