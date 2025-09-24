@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="about.html">O meni</a></li>
+            <li><a href="dizajn.html">Web-dizajn</a></li>            
+            <li><a href="photos.html">Fotografije</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+<nav id="hamburger-nav">
+    <div class="logo">Portfolio</div>
+    <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="menu-links">
+        <li><a href="index.html" onclick="toggleMenu()">Početna</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">O meni</a></li>
+        <li><a href="dizajn.html" onclick="toggleMenu()">Web-dizajn</a></li>
+        <li><a href="photos.html" onclick="toggleMenu()">Photos</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Kontakt</a></li>
+    </ul>
+</nav>
+
+
+	<section id="home" class="about-section">
+        <div class="about-text">
+            <h1>Moji radovi iz Web-dizajna</h1>
+            <p>„Dobrodošli u moju kolekciju dizajnerskih radova.
+                Ovi projekti prikazuju moj pristup kreativnosti, tipografiji, kompoziciji i vizuelnoj komunikaciji.
+                Istražite slike ispod da biste videli raznovrsne projekte – od logotipa i brendiranja do digitalnih ilustracija i vizuelnih kampanja.
+                Svaki rad je rezultat posvećenosti detaljima i težnje da ideja oživi kroz dizajn.“</p>
+    </section>
+
+        <section class="gallery1">
+            <br><br>
+            <div class="grid-gallery1">
+                <a href="img/rad1.jpg" target="_blank">
+                    <img src="img/rad1.jpg" alt="Rad">
+                </a>
+                <a href="img/rad2.jpg" target="_blank">
+                    <img src="img/rad2.jpg" alt="Rad">
+                </a>
+                <a href="img/rad3.png" target="_blank">
+                    <img src="img/rad3.png" alt="Rad">
+                </a>
+            </div>
+        </section>
+
+        <section class="gallery2">
+            <br><br>
+            <div class="grid-gallery2">
+                <a href="img/rad4.jpg" target="_blank">
+                    <img src="img/rad4.jpg" alt="Rad">
+                </a>
+                <a href="img/rad5.jpg" target="_blank">
+                    <img src="img/rad5.jpg" alt="Rad">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <br>
+
+<footer id="footer-nav">
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="about.html">O meni</a></li>
+            <li><a href="dizajn.html">Web-dizajn</a></li>
+            <li><a href="photos.html">Fotografije</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
