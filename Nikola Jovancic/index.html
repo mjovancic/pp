@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="about.html">O meni</a></li>
+            <li><a href="dizajn.html">Web-dizajn</a></li>            
+            <li><a href="photos.html">Fotografije</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+<nav id="hamburger-nav">
+    <div class="logo">Portfolio</div>
+    <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="menu-links">
+        <li><a href="index.html" onclick="toggleMenu()">Početna</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">O meni</a></li>
+        <li><a href="dizajn.html" onclick="toggleMenu()">Web-dizajn</a></li>
+        <li><a href="photos.html" onclick="toggleMenu()">Photos</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Kontakt</a></li>
+    </ul>
+</nav>
+
+	<section id="home" class="welcome-section">
+        <div class="welcome-text">
+            <h1>Dobrodošli na moj portfolio!</h1>
+            <p>„Moje ime je Nikola Jovančić, a ovaj portfolio predstavlja moje radove i projekte koje sam kreirao. Hvala što ste svratili – radujem se mogućnosti da zajedno ostvarimo vaše vizije! U mom radu trudim se da spojim kreativnost i praktična rešenja, kako bi svaki projekat ostavio snažan utisak. Slobodno istražite i kontaktirajte me ukoliko želite saradnju.“</p>
+        </div>
+        <div class="welcome-image">
+            <img src="img/pocetna.jpg" alt="Slika dobrodošlice">
+        </div>
+		
+    </section>
+    <br>
+
+<section id="portfolio">
+      <h1 class="portfolio-title">Kratak pregled portfolia</h1>
+      <hr class="hr1">
+        <div class="gallery">
+            <div class="gallery-item"><img src="img/p1.jpg" alt="Projekat 1"></div>
+            <div class="gallery-item"><img src="img/p2.jpg" alt="Projekat 2"></div>
+            <div class="gallery-item"><img src="img/p3.jpg" alt="Projekat 3"></div>
+           <div class="gallery-item"><img src="img/p4.jpg" alt="Projekat 4"></div>
+		   <div class="gallery-item"><img src="img/p5.jpg" alt="Projekat 5"></div>
+		   <div class="gallery-item"><img src="img/p6.jpg" alt="Projekat 6"></div>
+        </div>
+
+        <div class="download-button">
+            <a href="img/portfolio.pdf" target="_blank" download="MojPortfolio.pdf">Preuzmi PDF Portfolio!</a>
+        </div>
+    </section>
+	
+<br><br>
+
+<footer id="footer-nav">
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="about.html">O meni</a></li>
+            <li><a href="dizajn.html">Web-dizajn</a></li>
+            <li><a href="photos.html">Fotografije</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
